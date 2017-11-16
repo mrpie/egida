@@ -1,0 +1,212 @@
+body {
+    margin: 0;
+    font-size: 1em;
+    background: url(http://365psd.ru/images/backgrounds/bg-lightl-901.jpg) repeat;
+}
+header {
+    background-color: #726d6f;
+    width: 100%;
+    height: 65px;
+}
+header .image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    float: left;
+    display: inline-block;
+    position: absolute;
+    top: 7px;
+    left: 10px;
+    right: 0;
+    bottom: 0;
+}
+h1{
+    font-size: 1.5em;
+}
+header .text {
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+
+
+
+}
+.content {
+    width: 100%;
+    height: 100%;
+
+}
+.content .lining {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    background-color: #e8e8e8;
+}
+.coll {
+    width: 49%;
+    display: inline-block;
+}
+
+.coll-2 {
+    width: 30%;
+    display: inline-block;
+}
+.trip-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+
+}
+.content-menu {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+
+}
+.menu {
+    display: table-row;
+    margin-top: 50px;
+
+}
+
+ul.menu {
+    width: 100%;
+    border: none;
+    list-style: none;
+    text-align: left;
+
+}
+
+.content-menu > ul > li{
+    display: table-cell;
+    margin: 0 -1px 0 0;
+    border: 1px solid lightgray;
+    padding: 1px;
+    position: relative;
+    text-align: center;
+
+}
+
+.content-menu a {
+    color: #000;
+    display: block;
+    font-size: 10px;
+    padding: 10px 0;
+    text-decoration: none;
+    white-space: nowrap;
+    letter-spacing: -0.5px;
+
+}
+
+.content-menu ul {
+    line-height: 20px;
+
+}
+
+.content-menu li ul {
+    background: none repeat scroll 0 0 #FFFFFF;
+    display: none;
+    left: 0;
+    padding: 0;
+    position: absolute;
+    top: 100%;
+    z-index: 1000;
+    margin-left: -2px;
+    margin-top: 1px;
+}
+
+.content-menu li ul:hover {
+    display: block;
+
+}
+
+.content-menu ul li.first {
+    border-top: 0 none;
+}
+
+.content-menu ul li a {
+
+    border-top: 0 none;
+    font-size: 18px;
+    margin: 0;
+    white-space: nowrap;
+}
+
+.content-menu li:hover {
+    background-color: darkgrey;
+}
+
+.content-menu li:hover ul {
+    display: block;
+}
+.content-menu li > ul:hover {
+    display: block;
+
+}
+
+li.leaf {
+    padding: 0.2em 0.5em 0 0;
+    margin: 0;
+}
+
+.menu ul li {
+    display: block;
+    padding: 0;
+    margin: 0 0 -1px 0;
+    border: 1px solid #D9D9D9;
+}
+
+.content-menu > ul > li:hover {
+    border: 1px solid darkgrey;
+    padding: 0px;
+    z-index: 1002;
+    background-color: lightgray;
+}
+footer {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #726d6f;
+    display: block;
+}
+.footer-link {
+    text-align: justify;
+    margin: 0 auto;
+}
+.footer-link ul {
+    display:inline;
+}
+.footer-link ul li{display: inline; list-style-type: none;text-align: center}
+.footer-link ul li a{display:inline-block; text-decoration: none;}
+.footer-link span{display:inline-block; width:100%; height:0; font-size:0;}
+@media screen and (max-width: 768px){
+    .content .lining {
+        width: 100%;
+        text-align: center;
+        margin: auto; } }
+@media screen and (max-width: 768px) {
+    .coll {
+        width: 100%;
+        display: block;
+        margin: 0 auto; } }
+@media screen and (max-width: 768px) {
+    .coll-2 {
+        width: 100%;
+        display: block;
+        margin: 0 auto; } }
+@media screen and (max-width: 768px) {
+    header .text {
+        text-align: right;
+        right: 7px;
+        top: 3px;} }
+@media screen and (max-width: 768px) {
+    .footer-link ul li {display: block;}
+}
